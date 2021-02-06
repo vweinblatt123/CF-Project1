@@ -1,5 +1,7 @@
 #Project 1: Assets and the Impact of Social Media
+
 ##Import
+
 Reddit API (External API)
 Twitter API
 Alpaca API
