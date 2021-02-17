@@ -6,9 +6,12 @@
 Gamestop engages in retail selling video games, consumer electronics and merchandise related to video games in United States, Canada, & Europe. As a brick and mortar video game retailer in the middle of global pandemic, the company displays weak fundamentals. We analyze these ![here](Ziggy/fundamental_story.ipynb). We see...
 
 *Technical setup: hedge funds had accumulated a very large short position*
-As a result of the weak fundamentals, hedge funds established a large short position (more than 100% of the float) to bet against the stock. We pull historical Bloomberg data to create a "short trend" graph ![here](weirong/GME_short.ipynb).
+
+As a result of the weak fundamentals, hedge funds established a large short position (more than 100% of the float) to bet against the stock, really accelerating at the end of last year, into January. We pull historical Bloomberg data to create a "short trend" graph ![here](weirong/GME_short.ipynb).
 
 *Sentiment analysis: daily movements in stock prices impacted by WSB posts*
+
+Wanting to "stick it to the man" and "fight" the hedge funds, retail investors began buying up GME shares at very cheap prices. A notable forum for discussing stocks amongst these investors is the Reddit wallstreetbets (WSB) page. We pull posts from this forum over the second half of January to early February to analyze how sentiment in the forum has driven stock price performance amongst most talked about names (not just GME, but also AMC, BBBY, NOK, and BB). We create a "wordcloud" highlighting popularity of particular words in titles of WSB posts and then compare daily price movements in an equal weighted portfolio of these "reddit stocks" to daily sentiment from the forum. We use Kaggle data, along with the praw Reddit api, and nltk NLP package to analyze sentiment ![here](Victor/reddit_processing.ipynb) and ![here](Victor/reddit_analysis.ipynb).
 
 *Returns, betas, and sharpes*
 
