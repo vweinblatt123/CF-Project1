@@ -23,7 +23,7 @@ The resulting stock movements in these names created some very interesting stati
 
 *Who’s next?: Monte Carlo simulation of current hot WSB stocks*
 
-As a next step, we took the latest hot names discussed on the WSB forum and created a Monte Carlo simulation, analyzing expected returns of a new "Reddit portfolio". We focus on SNDL, TLRY, APHA, GME, AMC, BB, MVIS, and ACB. Specifically, we use one year of historical data and 100 simulations over the next 252 trading days. We then compared this to a portfolio fully invested in the S&P 500 ![here](weirong/Monte_Carlo.ipynb). While the S&P 500 simulations are fairly evenly distributed, as expected, the new Reddit portfolio exhibits rather extreme returns, ranging from a **minimum** of 120% to a maximum of 7100%.
+As a next step, we took the latest hot names discussed on the WSB forum and created a Monte Carlo simulation, analyzing expected returns of a new "Reddit portfolio". We focus on SNDL, TLRY, APHA, GME, AMC, BB, MVIS, and ACB. Specifically, we use one year of historical data and 100 simulations over the next 252 trading days. We then compared this to a portfolio fully invested in the S&P 500 ![here](weirong/Monte_Carlo.ipynb). While the S&P 500 simulations are fairly evenly distributed, as expected, the new Reddit portfolio exhibits rather extreme returns, ranging from a **minimum** of 270% to a maximum of 4900%.
 
 *Next Steps: Dogecoin to the moon!*
 
